@@ -8,7 +8,7 @@
             InitializeComponent();
         }
 
-        private async void OnCounterClicked(object sender, EventArgs e)
+        private async void OnPermissionClicked(object sender, EventArgs e)
         {
             await CheckAndRequestCalendarPermission();
         }
